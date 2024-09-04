@@ -1,0 +1,140 @@
+/* src/assets/styles/global.css */
+.heading-color {
+    color: #c4a7e7; /* Beispiel für eine Überschriftenfarbe */
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+  
+.text-box {
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.circle-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    object-fit: cover;
+}
+
+.big-bullet-point-list {
+    list-style: none;
+    padding-left: 12px; /* Passt den linken Abstand an */
+    margin-left: 12px;  /* Optional: zusätzlicher äußerer Abstand */
+    text-align: left;
+    margin: 1rem 0;
+}
+  
+.big-bullet-point-list li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.big-bullet-point {
+    background: #c4a7e7;
+    border-radius: 50%;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #8fd19e;
+    color: #333333;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+}
+  
+button:hover {
+    background-color: #f9a875;
+}
+
+@media (max-width: 480px) {
+    .text-box {
+      padding: 1rem;
+      margin: 0.5rem;
+    }
+  
+    .circle-pic, .hobby-pic {
+      width: 120px;
+    }
+  
+    h1, h2 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    .skills-list li {
+      font-size: 0.9rem;
+    }
+}
+  
+@media (max-width: 768px) {
+    .text-box {
+      padding: 1.5rem;
+      margin: 1rem;
+    }
+  
+    .circle-pic, .hobby-pic {
+      width: 150px;
+    }
+  
+    h1, h2 {
+      font-size: 1.8rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .skills-list li {
+      font-size: 1rem;
+    }
+
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .circle-pic {
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+}
