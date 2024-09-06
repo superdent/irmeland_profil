@@ -6,7 +6,8 @@
           <h1 class="heading-color">Meine Geschichte</h1>
           <p>Meine berufliche Reise begann in der Gastronomie, wo ich schnell lernte, unter Druck zu arbeiten und mit Menschen umzugehen.</p>
           <p>Schon bevor ich 1997 meinen ersten Job in der IT antrat, hatte ich Erfahrung mit verschiedenen Programmiersprachen gesammelt. Bereits 1996 begann ich, mich intensiv mit Java zu beschäftigen und meine Programmierkenntnisse weiter auszubauen.</p>
-          <p>Seitdem habe ich umfangreiche Erfahrungen als Entwickler, Product Owner und IT-Architekt gesammelt. Meine Arbeit umfasst die Entwicklung von Softwarelösungen und die Leitung von Projekten im agilen Umfeld. Heute bringe ich mein breites Wissen und meine langjährige Erfahrung in verschiedenen Branchen ein, um benutzerfreundliche IT-Lösungen zu entwickeln.</p>
+          <p>Seitdem habe ich umfangreiche Erfahrungen als Entwickler, Product Owner und IT-Architekt gesammelt. Durch meine fundierte Ausbildung sowie berufliche Zertifizierungen konnte ich meine Kenntnisse stetig erweitern und vertiefen.</p>
+          <p>Heute bringe ich mein breites Wissen und meine langjährige Erfahrung in verschiedenen Branchen ein, um qualitativ hochwertige IT-Lösungen zu entwickeln.  Meine Arbeit umfasst die Entwicklung von Softwarelösungen und die Leitung von Projekten im agilen Umfeld.</p>
         </div>
         <img src="@/assets/ruediger3.png" alt="" class="circle-pic">
       </div>
@@ -16,10 +17,11 @@
       <div class="content-container">
         <div class="text-content">
           <h1 class="heading-color">Worauf ich Wert lege</h1>
-          <p>Für mich steht der Mensch im Mittelpunkt der Technologie.</p>
-          <p>Ob es um Prozessverbesserungen, technische Implementierungen oder die Anpassung von Arbeitsmethoden geht, mein Ziel ist es, benutzerfreundliche Lösungen zu schaffen.</p>
-          <p>Die besten Ergebnisse entstehen durch Zusammenarbeit im Team und durch den Austausch mit allen relevanten Stakeholdern.</p>
-          <p>Ich sehe mich dabei stets als Bindeglied zwischen den Entwicklungsteams und den Kunden bzw. Fachabteilungen.</p>
+          <p>Für mich steht der Mensch im Mittelpunkt der Technologie. Technologie sollte nicht nur leistungsfähig sein, sondern auch den Menschen dienen – sowohl den Anwendern als auch denjenigen, die damit arbeiten.</p>
+          <p>Ob es um Prozessverbesserungen, technische Implementierungen oder die Anpassung von Arbeitsmethoden geht, mein Ziel ist es, Lösungen zu schaffen, die sowohl effizient, anpassungsfähig als auch zukunftssicher sind.</p>
+          <p>Die besten Ergebnisse entstehen durch Zusammenarbeit im Team und durch den Austausch mit allen relevanten Stakeholdern. Nur durch eine enge, transparente Kommunikation zwischen Entwicklern, Nutzern und Fachabteilungen lassen sich Anforderungen präzise umsetzen und langfristig erfolgreiche Lösungen schaffen.</p>
+          <p>Kontinuierliches Lernen und die persönliche Weiterentwicklung sind für mich essenziell. Ich setze darauf, immer auf dem neuesten Stand der Technologie zu bleiben, um innovative, zukunftsweisende Lösungen zu entwickeln und den Herausforderungen der Branche gerecht zu werden.</p>
+          <p>Ich sehe mich dabei stets als Bindeglied zwischen den Entwicklungsteams und den Kunden bzw. Fachabteilungen, um sicherzustellen, dass sowohl technische als auch geschäftliche Ziele erreicht werden.</p>
         </div>
         <img src="@/assets/maenner_am_tisch.png" alt="" class="circle-pic">
       </div>

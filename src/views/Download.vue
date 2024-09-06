@@ -16,12 +16,11 @@
         </a>
       </div>
     </section>
+    <p class="note">Das Passwort für die Downloads bitte per E-Mail erfragen!</p>
   </div>
 </template>
 
-
 <style scoped>
-
 .download-links {
   list-style: none;
   padding: 0;
@@ -42,5 +41,4 @@
 .download-links a:hover {
   color: #f9a875;
 }
-
 </style>

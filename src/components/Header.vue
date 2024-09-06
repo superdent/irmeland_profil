@@ -26,14 +26,19 @@ export default {
   methods: {
     toggleMenu() {
       this.showMenu = !this.showMenu;
+      if (this.showMenu) {
+        document.body.classList.add('menu-open');
+      } else {
+        document.body.classList.remove('menu-open');
+      }
     },
     closeMenu() {
-      this.showMenu = false; // Stellt sicher, dass das Menü sich schließt
+      this.showMenu = false;
+      document.body.classList.remove('menu-open');
     }
   }
 };
 </script>
-
 
 <style scoped>
 header {
@@ -102,24 +107,29 @@ ul li a:hover {
   .menu-icon {
     display: block;
     margin-right: auto; /* Sorgt dafür, dass das Menü links bleibt */
+    z-index: 1100; /* Sicherstellen, dass das Menü-Icon über dem Rest liegt */
   }
 
   ul {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: -100%; /* Versteckt das Menü außerhalb des Bildschirms */
+    height: calc(100vh - 2rem); 
+    width: 150px; /* Breite des Menüs */
+    background-color: rgba(196, 167, 231, 1); /* Leicht transparenter Hintergrund */
+    padding: 1rem;
+    transition: left 0.3s ease; /* Animation beim Ein- und Ausklappen */
+    z-index: 1000;
+    display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 60px; /* Höhe des Headers */
-    left: 10px; /* Abstand von der linken Seite */
-    width: 150px; /* Schmaleres Menü */
-    background-color: #c4a7e7;
-    padding: 0.5rem 1rem; /* Weniger Padding */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: left; /* Links ausgerichtet */
-    align-items: flex-start; /* Sorgt dafür, dass die Einträge linksbündig sind */
+    text-align: left;
+    border-right: 1px solid #333333;
+    border-top-right-radius: 10px; /* Runde rechte obere Ecke */
+    border-bottom-right-radius: 10px; /* Runde rechte untere Ecke */
   }
 
   ul.show-menu {
-    display: flex; /* Zeigt das Menü an, wenn show-menu aktiv ist */
+    left: 0; /* Schiebt das Menü in den sichtbaren Bereich */
   }
 
   ul li {
@@ -134,6 +144,13 @@ ul li a:hover {
   ul li a {
     display: block; /* Block-Element, um volle Breite zu nutzen */
     padding: 0.5rem 0; /* Vertikales Padding für Klickbereich */
+  }
+
+  /* Damit der Rest der Seite nach rechts geschoben wird */
+  body.menu-open {
+    transform: translateX(150px); /* Verschiebt die Seite nach rechts */
+    transition: transform 0.3s ease; /* Gleiche Animation wie das Menü */
+    overflow-x: hidden; /* Verhindert horizontales Scrollen */
   }
 }
 </style>

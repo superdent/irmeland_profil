@@ -59,11 +59,7 @@
         </div>
       </div>
     </section>
-
-  <hr>
-  <p class="note">Diese Liste stellt eine Auswahl meiner Projekte dar. Weitere Projekte werden gerne im persönlichen Gespräch erläutert oder sind in meinem Lebenslauf zu finden.</p>
-
-
+    <p class="note">Diese Liste stellt eine Auswahl meiner Projekte dar. Weitere Projekte werden gerne im persönlichen Gespräch erläutert oder sind in meinem Lebenslauf zu finden.</p>
   </div>
 </template>
 
@@ -72,13 +68,3 @@ export default {
   name: 'Projects',
 };
 </script>
-
-<style scoped> 
-  .note {
-      font-size: 0.9em; /* Etwas kleinere Schrift */
-      color: #555; /* Abgeblendet, aber lesbar */
-      margin-top: 20px;
-      font-style: italic; /* Kursivschrift */
-      text-align: center; /* Zentriert oder rechtsbündig je nach Designwunsch */
-  }
-</style>
