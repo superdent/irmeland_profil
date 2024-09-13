@@ -44,7 +44,7 @@
     <section class="text-box">
       <div class="content-container">
         <div class="text-content">
-          <h2 class="heading-color">Plausibilitätsprüfungssoftware zur Validierung von Umsatzsteuerbelegen"</h2>
+          <h2 class="heading-color">Plausibilitätsprüfung von Umsatzsteuerbelegen</h2>
           <p><strong>Zeitraum:</strong> Januar 2017 - Juni 2019</p>
           <p><strong>Rolle:</strong> Lead Developer und Requirements Engineer</p>
           <p><strong>Beschreibung:</strong>In diesem Projekt wurde eine eigenständige Softwarelösung entwickelt, die speziell zur Plausibilitätsprüfung von Umsatzsteuerbelegen in großen Unternehmen dient. Die Software ermöglicht den ressourcenschonenden Import von Belegdaten und relevanten Stammdaten aus SAP-Systemen mittels JCO-Schnittstelle. Durch die automatisierte Verarbeitung und Analyse von Millionen Einzelbelegen können steuerliche Fehler frühzeitig identifiziert und korrigiert werden. Die initiale Entwicklung der Software umfasste mehr als zehn verschiedene Plausibilitätsprüfungen. Das entstandene Produkt wurde erstmals nach einem Jahr bei zwei Pilotkunden erfolgreich eingesetzt. Die Lösung bietet großen Unternehmen erstmals eine Möglichkeit, die Genauigkeit ihrer Umsatzsteuerangaben prüfungssicher zu verbessern und die Anzahl manueller Überprüfungen zu reduzieren.</p>
